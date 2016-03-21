@@ -1,0 +1,6 @@
+framework module CAUMessage {
+  umbrella header "CAUMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

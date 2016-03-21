@@ -17,19 +17,21 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+友盟推送测试
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CAUMessage"
+  s.homepage         = "http://dev.umeng.com/social/ios/quick-integration"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "wuzx" => "wuzx@feiyu.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CAUMessage.git", :tag => s.version.to_s }
+#s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CAUMessage.git", :tag => s.version.to_s }
+  s.source           = { :http => "http://dev.umeng.com/files/download/Umeng_SDK_Social_iOS_ARM64_4.4.zip" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = ['Pod/Classes/**/*', 'UMSocial_Sdk_4.4/Header/*.h']
   s.resource_bundles = {
     'CAUMessage' => ['Pod/Assets/*.png']
   }

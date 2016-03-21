@@ -1,0 +1,24 @@
+{
+  "name": "CAUMessage",
+  "version": "0.1.0",
+  "summary": "A short description of CAUMessage.",
+  "description": "友盟推送测试",
+  "homepage": "http://dev.umeng.com/social/ios/quick-integration",
+  "license": "MIT",
+  "authors": {
+    "wuzx": "wuzx@feiyu.com"
+  },
+  "source": {
+    "http": "http://dev.umeng.com/files/download/Umeng_SDK_Social_iOS_ARM64_4.4.zip"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CAUMessage": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
