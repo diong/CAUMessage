@@ -32,12 +32,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*', 'Pod/UMessage_Sdk_1.2.6/*'
+  s.source_files = 'Pod/UMessage_Sdk_1.2.6/*'
 #  s.resource_bundles = {
 #    'CAUMessage' => ['Pod/Assets/*.png']
 #  }
 
-  s.public_header_files = 'Pod/Classes/**/*.h', 'Pod/UMessage_Sdk_1.2.6/*.h'
+  s.public_header_files = 'Pod/UMessage_Sdk_1.2.6/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
