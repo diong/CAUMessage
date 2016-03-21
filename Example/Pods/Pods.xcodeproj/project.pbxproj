@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0297847B1C9FFCD5006FBDE3 /* libUMessage_Sdk_1.2.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 029784791C9FFCD5006FBDE3 /* libUMessage_Sdk_1.2.6.a */; };
-		0297847C1C9FFCD5006FBDE3 /* UMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0297847A1C9FFCD5006FBDE3 /* UMessage.h */; };
 		04AA70B8D2CC3E1021DCCFEEE34C7333 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B0CBF1C26A97FB6FEFDFDB7BA71F75 /* FBSnapshotTestCase-dummy.m */; };
 		08633497048C6516EEEE5B61AF8932F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089DA448F1CB0FB085C4E12AFDD53A2 /* XCTest.framework */; };
 		092A8385B06DB60A5D330B704E48D36E /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 979A46F25D9FAAF442E8F9E6AF55F135 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,7 +39,9 @@
 		2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B6E9A30603BEBBD87BA535B7D384CA /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35E8A389A8D087668C298209AAFFE35B /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084E3F0BF91113EC5ADAD2356684C5D2 /* Expecta.framework */; };
+		36446440C00DEE17ECF2B107F17B7D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
 		372F7A9CCE59CE86316CF436F832A3FC /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		378FC8143CE59A1206C817954473A3F6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAED0A5ED21329E96658E6A76D8CEFC /* ReplaceMe.m */; };
 		37A2D0F8493469EF2495FC689440F079 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		397B320B7C59C168CC5B62E18ED8DEA0 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B5B7495707BF7133B9FB3F834045611 /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,10 +60,10 @@
 		4FFE44CAD4B3EA4E064FFB5369074891 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51DDDB0FB4899757CF6A826B531B940D /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52998FB88759958F912BADAF5486B528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
-		54540E87B2A6C6BFAD4339DEC38201F8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A05B9DB3FCB44E459CE0E02705EDD385 /* ReplaceMe.m */; };
 		595A04BC68811583B92D4E64236C0928 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94C2222C0253B958B353EECC310234 /* QuartzCore.framework */; };
 		5A3DED2AC8EC782575EBFF45ED0E3901 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764BD0C6C04DBD414FC179851898776C /* UIKit.framework */; };
 		5B2D4A621D3DA971A474776AF36BB073 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C09805DD701F05B0FA3348EDA3BDC7CB /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5E5845BCF461AE97E40EBAA8C4F33D4C /* libUMessage_Sdk_1.2.6.a in Sources */ = {isa = PBXBuildFile; fileRef = 03B9A9AC6CEF75B110B79B841EB73EDF /* libUMessage_Sdk_1.2.6.a */; };
 		5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61DC7B8FDAC76B1EAB04E576ECCED032 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C868D690588A6B89F532448ECAE12885 /* FBSnapshotTestController.m */; };
 		625A65240922794556FBBCE238D18058 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -77,13 +77,13 @@
 		6E1D978790705E137FDE439AA68DD3AA /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EFC63A5CED45BB39FC79D87F2C47D6B /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = A54AE821E3D5E7DF7DA3ED83AF9B4AF2 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F278423C8AE1DA47F35E374BB5B91EC /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C7CD39279BCFD392135DCF45F61F03 /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		723D140F28B05D217EEB797EF94E68A8 /* CAUMessage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F73436294D2BCEAF139AE7F8225E2AB /* CAUMessage.bundle */; };
-		72F3C72047B5B149D030686C167DF69C /* CAUMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F1643E48CF67A688944D065CF2668E /* CAUMessage-dummy.m */; };
+		754F32DE6AD8098897E3FEE159CC699E /* CAUMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8194775A0B9A7906E5BAEC7B89AC67B1 /* CAUMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76CCABE79C04444450153424D7CE1DC1 /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76D337327C10A7555447B69AA1562647 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 758C1F02B714A0821AE887BC00092EF6 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		79558B1F97ABE4AB8942DC18BEBD4B82 /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A211860F672261C1522DCDF1FFC9ED0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089DA448F1CB0FB085C4E12AFDD53A2 /* XCTest.framework */; };
 		7B223B4E6EF14BA12DA113F7EE10B96C /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA35404848989910373ED1C82E2B315 /* UMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B952D4605734F2A71ED3E26D3D6D123 /* UMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F281BF8F004D3CCC4D5C8F5125FD45E /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		805E425BBEF7A6133E32E1D30A073010 /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		80F7A60BC2814175154CF43CE4D822DD /* Expecta+Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E553ECAD689166E16E72CBB083D61A /* Expecta+Snapshots-dummy.m */; };
@@ -100,12 +100,13 @@
 		931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D54F2046B9323D0CB2748E382BAA3 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		939D4A431C3C7E861F9A57D619C1EA1B /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5F6EC9C4C2795348152BA100C32B10 /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94C47C87E397972CE98F75929F3B706C /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4016D8E6902B23AF2CA1BB3EBE78467 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9712F3FB696CC86EC1598FD628E67F90 /* CAUMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F04D9518ED70A5317AF482E0D2BF09DB /* CAUMessage-dummy.m */; };
+		9B0C49DA9D5BD09DA6CD0B5942B8ED83 /* CAUMessage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F73436294D2BCEAF139AE7F8225E2AB /* CAUMessage.bundle */; };
 		9B2E761A064459F77EA9870BEF03ACC3 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB9159FBA757600D3D4C0FF645F3911 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A090E1335802D26E75D008CC54E3EBE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089DA448F1CB0FB085C4E12AFDD53A2 /* XCTest.framework */; };
 		A1DCF9A9C12B7883BBEC2B985690A9F7 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 768E0C437692539220C0D4D914229388 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C1AFC76F823235CFD89A6A2079A91E /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8D40735D60FF99ACFCFDEC1965FE6B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
 		AADE77B01C792B90730223C579885D4E /* Pods-CAUMessage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDA23A4BFA8D77063FA493F63E2AFCB /* Pods-CAUMessage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB6B2AF5D8D6A5C19193AEB08B693344 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */; };
 		ADBD8779752DC404D7A5351C0342CA91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
@@ -115,7 +116,6 @@
 		AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B04AC583A2D3144AD6B5050CFAD6C103 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274B0E07010F236BE53B3B98CEC9AB62 /* FBSnapshotTestCase.framework */; };
 		B14EF5D9CBFFAFC68C3EF347D3D638BB /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FF8FCD7497595EEB9611E7438C1C78 /* UIImage+Compare.m */; };
-		B6CE63E6BAD98EC216A9423086C74E70 /* CAUMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA9CB9D04D5FAA8CA3CBC47EBD95472 /* CAUMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B84431CF8C64F363A334AA7089F6C134 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BA12B131F10BCE3BE6E9A02FC908FE9D /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BC55C8365AEFF8217F6A567607754854 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -161,8 +161,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5CBF94FE8E42D96E7D2084E7EED717DB;
+			remoteGlobalIDString = AEC205C2C021C46D1DB6004B5309E1B4;
 			remoteInfo = CAUMessage;
+		};
+		1A3ED242269BCFF6F4C7E06CED641DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37267A357C7BC0C45A6869C8FD6BBF0;
+			remoteInfo = "CAUMessage-CAUMessage";
 		};
 		2C98532365B2E266338D424663CF0002 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -182,7 +189,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5CBF94FE8E42D96E7D2084E7EED717DB;
+			remoteGlobalIDString = AEC205C2C021C46D1DB6004B5309E1B4;
 			remoteInfo = CAUMessage;
 		};
 		C4F8D71822629D9BFA198D910571E3A7 /* PBXContainerItemProxy */ = {
@@ -213,19 +220,11 @@
 			remoteGlobalIDString = 0D888F29E05E498D0CD91A51D28599A5;
 			remoteInfo = Expecta;
 		};
-		F9AF193A08B7C25FE7FA953753AA9FAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 978B1A7D8C22319A8A4FE40EFCDB87B8;
-			remoteInfo = "CAUMessage-CAUMessage";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0160D7EDEB19856BC505CA9E9075EC06 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
-		029784791C9FFCD5006FBDE3 /* libUMessage_Sdk_1.2.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.2.6.a; sourceTree = "<group>"; };
-		0297847A1C9FFCD5006FBDE3 /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
+		03B9A9AC6CEF75B110B79B841EB73EDF /* libUMessage_Sdk_1.2.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.2.6.a; sourceTree = "<group>"; };
 		064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
 		07BC24DA84E3F15453DEC37314546A77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -251,13 +250,12 @@
 		222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
-		24D75B9BEB6FFE4555D33AFD03BEE2CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26B782A5F5606BC64AF7B709A1D93B4E /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
 		2744A2542946D8DE61ED04D083BCEA56 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		274B0E07010F236BE53B3B98CEC9AB62 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28427289C1BBD04B3AFAA68C14994141 /* Pods-CAUMessage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CAUMessage_Tests-dummy.m"; sourceTree = "<group>"; };
 		28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
-		2B2ABC9CAC8D7C8E1A6C5B0564793BE0 /* CAUMessage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAUMessage.xcconfig; sourceTree = "<group>"; };
+		29290F03804E99412A16810471A43E76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		2F645EBA093F9FF47932FF1D5CE54764 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		306E137B97A38C22CEC1E6B27B33B78A /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
@@ -283,6 +281,7 @@
 		4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		4D94C2222C0253B958B353EECC310234 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		4D9BF7BD53CFA14B1D6FA82704EB0B4A /* Pods-CAUMessage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAUMessage_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4EAED0A5ED21329E96658E6A76D8CEFC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		5089DA448F1CB0FB085C4E12AFDD53A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		51B34EFC4AB0895A9F930413755AC4EB /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		5267376A130B688AA8DC669933C16D9A /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
@@ -298,10 +297,9 @@
 		6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
+		6B952D4605734F2A71ED3E26D3D6D123 /* UMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
 		6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		6CDA23A4BFA8D77063FA493F63E2AFCB /* Pods-CAUMessage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CAUMessage_Example-umbrella.h"; sourceTree = "<group>"; };
-		6D5EDC843D6416871DD81074A63F8FCD /* CAUMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAUMessage-prefix.pch"; sourceTree = "<group>"; };
-		6EA9CB9D04D5FAA8CA3CBC47EBD95472 /* CAUMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAUMessage-umbrella.h"; sourceTree = "<group>"; };
 		6F171023695E78011482097406A42BC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F73436294D2BCEAF139AE7F8225E2AB /* CAUMessage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAUMessage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
@@ -316,17 +314,18 @@
 		768E0C437692539220C0D4D914229388 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		79A18C1EB2EC337A87C21C89732639D4 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
-		79F1643E48CF67A688944D065CF2668E /* CAUMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAUMessage-dummy.m"; sourceTree = "<group>"; };
 		7A23795705C1EE4198ED34B1F8237CB5 /* Pods-CAUMessage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CAUMessage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A7D54F2046B9323D0CB2748E382BAA3 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
 		7BE7EA43918F8547CCF8A9EABF75B788 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		7D657B34A1C94FBF176F35C1081FD8A9 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
-		8201ACC8D8E066ADF1E3EEC01518792B /* CAUMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CAUMessage.modulemap; sourceTree = "<group>"; };
+		8194775A0B9A7906E5BAEC7B89AC67B1 /* CAUMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAUMessage-umbrella.h"; sourceTree = "<group>"; };
 		827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
+		83C18923B98178519245C8C986DF994B /* CAUMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAUMessage-prefix.pch"; sourceTree = "<group>"; };
 		83E537B78AEB93F0A2DBAC5222D32A9B /* Pods-CAUMessage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAUMessage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
+		8D361CDE8FDB7FCEBA50BCA6D8B8D6CF /* CAUMessage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAUMessage.xcconfig; sourceTree = "<group>"; };
 		8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
@@ -341,7 +340,6 @@
 		9CAD950E0D2139275BD8CB0B638C6B18 /* Pods-CAUMessage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAUMessage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
-		A05B9DB3FCB44E459CE0E02705EDD385 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		A0E1EDDA8A4867913953E0CBF82097C2 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		A0FF8FCD7497595EEB9611E7438C1C78 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		A193DEFA4D1CD24BE0FE7815E44EC372 /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
@@ -394,8 +392,10 @@
 		E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		E9CD10D8D5C08DB0BA567C54F01732F4 /* Pods-CAUMessage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAUMessage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EDE0D6A47393B29719A2BF4340A993CE /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		F04D9518ED70A5317AF482E0D2BF09DB /* CAUMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAUMessage-dummy.m"; sourceTree = "<group>"; };
 		F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
+		F2EE126757F12CC5C81CA226F0749184 /* CAUMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CAUMessage.modulemap; sourceTree = "<group>"; };
 		F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
 		F84196B33946AEC716494E62E6F16DF3 /* Pods-CAUMessage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAUMessage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -408,13 +408,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C7C1EF2AE2686058DF051F0B3408C23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4696AD68288203DDD9CFC3B92504FF49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,6 +416,13 @@
 				595A04BC68811583B92D4E64236C0928 /* QuartzCore.framework in Frameworks */,
 				5A3DED2AC8EC782575EBFF45ED0E3901 /* UIKit.framework in Frameworks */,
 				A090E1335802D26E75D008CC54E3EBE7 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4408F4E55681527A72CAC819E9A2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,12 +453,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAD9068B670A6668F7CDA8B132E784A3 /* Frameworks */ = {
+		D9E3FA9C80F8AD5EA742A27833616D29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0297847B1C9FFCD5006FBDE3 /* libUMessage_Sdk_1.2.6.a in Frameworks */,
-				A8D40735D60FF99ACFCFDEC1965FE6B5 /* Foundation.framework in Frameworks */,
+				36446440C00DEE17ECF2B107F17B7D64 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,15 +482,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		029784781C9FFCD5006FBDE3 /* UMessage_Sdk_1.2.6 */ = {
-			isa = PBXGroup;
-			children = (
-				029784791C9FFCD5006FBDE3 /* libUMessage_Sdk_1.2.6.a */,
-				0297847A1C9FFCD5006FBDE3 /* UMessage.h */,
-			);
-			path = UMessage_Sdk_1.2.6;
-			sourceTree = "<group>";
-		};
 		08D965B0F9B0084EEFBE7A581FFDD562 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,16 +561,6 @@
 				6823C1D63AF04872501E6D14802C3F02 /* SwiftSupport */,
 			);
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		5ECC56634DFED263D7A94AD181196BC9 /* CAUMessage */ = {
-			isa = PBXGroup;
-			children = (
-				D3B5CFEB493B56A04309C2BD22CF2559 /* Pod */,
-				F4D57B8ECD079A67C56D7D1341A902B1 /* Support Files */,
-			);
-			name = CAUMessage;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		6823C1D63AF04872501E6D14802C3F02 /* SwiftSupport */ = {
@@ -672,10 +652,10 @@
 			path = Expecta;
 			sourceTree = "<group>";
 		};
-		7ADCB1A6C046FBE6A75A5C5E9E40D86E /* Classes */ = {
+		7C8CDD368B1AD8EE78BD6191979A682E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A05B9DB3FCB44E459CE0E02705EDD385 /* ReplaceMe.m */,
+				4EAED0A5ED21329E96658E6A76D8CEFC /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -692,6 +672,20 @@
 			);
 			sourceTree = "<group>";
 		};
+		807F664820D54584909C81C080EC07FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE126757F12CC5C81CA226F0749184 /* CAUMessage.modulemap */,
+				8D361CDE8FDB7FCEBA50BCA6D8B8D6CF /* CAUMessage.xcconfig */,
+				F04D9518ED70A5317AF482E0D2BF09DB /* CAUMessage-dummy.m */,
+				83C18923B98178519245C8C986DF994B /* CAUMessage-prefix.pch */,
+				8194775A0B9A7906E5BAEC7B89AC67B1 /* CAUMessage-umbrella.h */,
+				29290F03804E99412A16810471A43E76 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CAUMessage";
+			sourceTree = "<group>";
+		};
 		8F4111F137C747F2F0D65F33BDFDD202 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -701,6 +695,34 @@
 				5089DA448F1CB0FB085C4E12AFDD53A2 /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		91BA06175585DB2099268568A03F7671 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7C8CDD368B1AD8EE78BD6191979A682E /* Classes */,
+				A0DEB529EC4275C99B57B5EBDA4E0F86 /* UMessage_Sdk_1.2.6 */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A0DEB529EC4275C99B57B5EBDA4E0F86 /* UMessage_Sdk_1.2.6 */ = {
+			isa = PBXGroup;
+			children = (
+				03B9A9AC6CEF75B110B79B841EB73EDF /* libUMessage_Sdk_1.2.6.a */,
+				6B952D4605734F2A71ED3E26D3D6D123 /* UMessage.h */,
+			);
+			path = UMessage_Sdk_1.2.6;
+			sourceTree = "<group>";
+		};
+		AC4E12EC275292861DDBCBE79E19068D /* CAUMessage */ = {
+			isa = PBXGroup;
+			children = (
+				91BA06175585DB2099268568A03F7671 /* Pod */,
+				807F664820D54584909C81C080EC07FC /* Support Files */,
+			);
+			name = CAUMessage;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BA1F311D20F01C7F7D3FEE1487AB9592 /* Frameworks */ = {
@@ -765,15 +787,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		D3B5CFEB493B56A04309C2BD22CF2559 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				029784781C9FFCD5006FBDE3 /* UMessage_Sdk_1.2.6 */,
-				7ADCB1A6C046FBE6A75A5C5E9E40D86E /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		D444F89BC8BA24BC0761D553BC8F0231 /* Expecta+Snapshots */ = {
 			isa = PBXGroup;
 			children = (
@@ -835,23 +848,9 @@
 		F4B1A3FB19B7D9C427C5635077CFEF5F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5ECC56634DFED263D7A94AD181196BC9 /* CAUMessage */,
+				AC4E12EC275292861DDBCBE79E19068D /* CAUMessage */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F4D57B8ECD079A67C56D7D1341A902B1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8201ACC8D8E066ADF1E3EEC01518792B /* CAUMessage.modulemap */,
-				2B2ABC9CAC8D7C8E1A6C5B0564793BE0 /* CAUMessage.xcconfig */,
-				79F1643E48CF67A688944D065CF2668E /* CAUMessage-dummy.m */,
-				6D5EDC843D6416871DD81074A63F8FCD /* CAUMessage-prefix.pch */,
-				6EA9CB9D04D5FAA8CA3CBC47EBD95472 /* CAUMessage-umbrella.h */,
-				24D75B9BEB6FFE4555D33AFD03BEE2CF /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CAUMessage";
 			sourceTree = "<group>";
 		};
 		FDEE4E7646A63A913A0C13CB401A1DFA /* Targets Support Files */ = {
@@ -871,15 +870,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AADE77B01C792B90730223C579885D4E /* Pods-CAUMessage_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23B194C92A2C72C89DC8DB5842980507 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0297847C1C9FFCD5006FBDE3 /* UMessage.h in Headers */,
-				B6CE63E6BAD98EC216A9423086C74E70 /* CAUMessage-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -984,6 +974,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E93340C8C39543377138EE045FFE3DD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754F32DE6AD8098897E3FEE159CC699E /* CAUMessage-umbrella.h in Headers */,
+				7BA35404848989910373ED1C82E2B315 /* UMessage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1002,25 +1001,6 @@
 			name = Expecta;
 			productName = Expecta;
 			productReference = 084DB01D1207D365211F741FB981AB2F /* Expecta.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5CBF94FE8E42D96E7D2084E7EED717DB /* CAUMessage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22522D9E1038B3A12D4654601EF0BA91 /* Build configuration list for PBXNativeTarget "CAUMessage" */;
-			buildPhases = (
-				C75D20C822FF24839094C84DCC78B2E8 /* Sources */,
-				CAD9068B670A6668F7CDA8B132E784A3 /* Frameworks */,
-				7ABEE9BDE344361B2CEC07AD4D1C99BB /* Resources */,
-				23B194C92A2C72C89DC8DB5842980507 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0BA0B76027E062812D5B1AF1128932A7 /* PBXTargetDependency */,
-			);
-			name = CAUMessage;
-			productName = CAUMessage;
-			productReference = 132B9F62DFDD3DFC297A05F0269B3BBA /* CAUMessage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7B3EF725B8F3FB16B1CE011DFA76F932 /* Pods-CAUMessage_Tests */ = {
@@ -1063,22 +1043,24 @@
 			productReference = 1B553B7E990FF79C9977BDA0814EB5AD /* Pods_CAUMessage_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		978B1A7D8C22319A8A4FE40EFCDB87B8 /* CAUMessage-CAUMessage */ = {
+		AEC205C2C021C46D1DB6004B5309E1B4 /* CAUMessage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A900CE535100054063B23034A5A23696 /* Build configuration list for PBXNativeTarget "CAUMessage-CAUMessage" */;
+			buildConfigurationList = 091B7B48D98D8B5ACB82B781FEE21D4A /* Build configuration list for PBXNativeTarget "CAUMessage" */;
 			buildPhases = (
-				691F694262CCEEE62BCC62FB75D9BF00 /* Sources */,
-				3C7C1EF2AE2686058DF051F0B3408C23 /* Frameworks */,
-				AE524B0634EFE822EB30537DD4E6C0C2 /* Resources */,
+				8FEA3DE0EB0CF15D353E3FDD12169BEC /* Sources */,
+				D9E3FA9C80F8AD5EA742A27833616D29 /* Frameworks */,
+				22F486FDBE64CADEAE39AA2959EC336C /* Resources */,
+				E93340C8C39543377138EE045FFE3DD8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1F70AE9CDB7A62298DA91556A5ABB368 /* PBXTargetDependency */,
 			);
-			name = "CAUMessage-CAUMessage";
-			productName = "CAUMessage-CAUMessage";
-			productReference = 6F73436294D2BCEAF139AE7F8225E2AB /* CAUMessage.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = CAUMessage;
+			productName = CAUMessage;
+			productReference = 132B9F62DFDD3DFC297A05F0269B3BBA /* CAUMessage.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		C599D6DE49C5DCD69A459367CE07895A /* Specta */ = {
 			isa = PBXNativeTarget;
@@ -1096,6 +1078,23 @@
 			productName = Specta;
 			productReference = BF28A10EAFAABC5DE15BBEB1D1235AFF /* Specta.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		D37267A357C7BC0C45A6869C8FD6BBF0 /* CAUMessage-CAUMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FB441FDE87E38C81ABE5CE83947683 /* Build configuration list for PBXNativeTarget "CAUMessage-CAUMessage" */;
+			buildPhases = (
+				77991746AE5457B6B4D765DFD87B76F6 /* Sources */,
+				5A4408F4E55681527A72CAC819E9A2DA /* Frameworks */,
+				5391552B42BD27C4F1ECA64177451B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CAUMessage-CAUMessage";
+			productName = "CAUMessage-CAUMessage";
+			productReference = 6F73436294D2BCEAF139AE7F8225E2AB /* CAUMessage.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		DD86ABD743B0605672C710ADC56EB9DA /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
@@ -1154,8 +1153,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5CBF94FE8E42D96E7D2084E7EED717DB /* CAUMessage */,
-				978B1A7D8C22319A8A4FE40EFCDB87B8 /* CAUMessage-CAUMessage */,
+				AEC205C2C021C46D1DB6004B5309E1B4 /* CAUMessage */,
+				D37267A357C7BC0C45A6869C8FD6BBF0 /* CAUMessage-CAUMessage */,
 				0D888F29E05E498D0CD91A51D28599A5 /* Expecta */,
 				ED4342E27597144E22BA4081D52F6DD1 /* Expecta+Snapshots */,
 				DD86ABD743B0605672C710ADC56EB9DA /* FBSnapshotTestCase */,
@@ -1167,15 +1166,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7ABEE9BDE344361B2CEC07AD4D1C99BB /* Resources */ = {
+		22F486FDBE64CADEAE39AA2959EC336C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723D140F28B05D217EEB797EF94E68A8 /* CAUMessage.bundle in Resources */,
+				9B0C49DA9D5BD09DA6CD0B5942B8ED83 /* CAUMessage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE524B0634EFE822EB30537DD4E6C0C2 /* Resources */ = {
+		5391552B42BD27C4F1ECA64177451B26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1210,10 +1209,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		691F694262CCEEE62BCC62FB75D9BF00 /* Sources */ = {
+		77991746AE5457B6B4D765DFD87B76F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEA3DE0EB0CF15D353E3FDD12169BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9712F3FB696CC86EC1598FD628E67F90 /* CAUMessage-dummy.m in Sources */,
+				5E5845BCF461AE97E40EBAA8C4F33D4C /* libUMessage_Sdk_1.2.6.a in Sources */,
+				378FC8143CE59A1206C817954473A3F6 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1267,15 +1276,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C75D20C822FF24839094C84DCC78B2E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72F3C72047B5B149D030686C167DF69C /* CAUMessage-dummy.m in Sources */,
-				54540E87B2A6C6BFAD4339DEC38201F8 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D5AB60AD70ABC26BFF15B68D3992D23D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1308,19 +1308,13 @@
 		0414E20D6BD2DFB9794382A24F9538DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CAUMessage;
-			target = 5CBF94FE8E42D96E7D2084E7EED717DB /* CAUMessage */;
+			target = AEC205C2C021C46D1DB6004B5309E1B4 /* CAUMessage */;
 			targetProxy = 63A30860AB3BB40BAAFBD2FC5745C16F /* PBXContainerItemProxy */;
-		};
-		0BA0B76027E062812D5B1AF1128932A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CAUMessage-CAUMessage";
-			target = 978B1A7D8C22319A8A4FE40EFCDB87B8 /* CAUMessage-CAUMessage */;
-			targetProxy = F9AF193A08B7C25FE7FA953753AA9FAB /* PBXContainerItemProxy */;
 		};
 		107CDBFA04146AF4D766199907651487 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CAUMessage;
-			target = 5CBF94FE8E42D96E7D2084E7EED717DB /* CAUMessage */;
+			target = AEC205C2C021C46D1DB6004B5309E1B4 /* CAUMessage */;
 			targetProxy = 060CC01B5E44CE9A9FA224738C689C51 /* PBXContainerItemProxy */;
 		};
 		123960F02DD85E3F199425A2626F6311 /* PBXTargetDependency */ = {
@@ -1334,6 +1328,12 @@
 			name = FBSnapshotTestCase;
 			target = DD86ABD743B0605672C710ADC56EB9DA /* FBSnapshotTestCase */;
 			targetProxy = C75F749FDE97012B6DC65A022C606C4C /* PBXContainerItemProxy */;
+		};
+		1F70AE9CDB7A62298DA91556A5ABB368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CAUMessage-CAUMessage";
+			target = D37267A357C7BC0C45A6869C8FD6BBF0 /* CAUMessage-CAUMessage */;
+			targetProxy = 1A3ED242269BCFF6F4C7E06CED641DF3 /* PBXContainerItemProxy */;
 		};
 		A28B7BE98B87EA7500818B1472BB7AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1603,6 +1603,45 @@
 			};
 			name = Release;
 		};
+		3ADD68204742498E9843E428CF07CC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D361CDE8FDB7FCEBA50BCA6D8B8D6CF /* CAUMessage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CAUMessage/CAUMessage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAUMessage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAUMessage/CAUMessage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CAUMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5963CFF7A698FC1A2C0F81F3F0257367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D361CDE8FDB7FCEBA50BCA6D8B8D6CF /* CAUMessage.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CAUMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		5B82CF2FBF33C77017DA6EDED034A81B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A193DEFA4D1CD24BE0FE7815E44EC372 /* Expecta.xcconfig */;
@@ -1657,6 +1696,18 @@
 			};
 			name = Debug;
 		};
+		6BF86C9F9AC140653CAE323F118D75EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D361CDE8FDB7FCEBA50BCA6D8B8D6CF /* CAUMessage.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CAUMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		83E480D354894461A4E37FC06787A457 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2744A2542946D8DE61ED04D083BCEA56 /* FBSnapshotTestCase.xcconfig */;
@@ -1684,18 +1735,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		84ABA6A12331FBB105894CB74982BAAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B2ABC9CAC8D7C8E1A6C5B0564793BE0 /* CAUMessage.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CAUMessage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		870E7E5DD95074E3652610C54648E683 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1728,18 +1767,6 @@
 			};
 			name = Debug;
 		};
-		8F95EE90B7259EA35B88EA40318805FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B2ABC9CAC8D7C8E1A6C5B0564793BE0 /* CAUMessage.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CAUMessage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		98E1917ED578B326F83E36826EEB4878 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A13AEBD3A512EC975C2DD3AF8D8931D /* Expecta+Snapshots.xcconfig */;
@@ -1759,6 +1786,33 @@
 				MODULEMAP_FILE = "Target Support Files/Expecta+Snapshots/Expecta+Snapshots.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Expecta_Snapshots;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A017F719EACB320E404D9501AED696B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D361CDE8FDB7FCEBA50BCA6D8B8D6CF /* CAUMessage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CAUMessage/CAUMessage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAUMessage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAUMessage/CAUMessage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CAUMessage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1797,68 +1851,14 @@
 			};
 			name = Release;
 		};
-		E2A7E71A2E0A12AB362BCD5BC777FCB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B2ABC9CAC8D7C8E1A6C5B0564793BE0 /* CAUMessage.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CAUMessage/CAUMessage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CAUMessage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CAUMessage/CAUMessage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CAUMessage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F47C82A1ED2BA0B7A518C75BEC4BF3B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B2ABC9CAC8D7C8E1A6C5B0564793BE0 /* CAUMessage.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CAUMessage/CAUMessage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CAUMessage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CAUMessage/CAUMessage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CAUMessage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22522D9E1038B3A12D4654601EF0BA91 /* Build configuration list for PBXNativeTarget "CAUMessage" */ = {
+		091B7B48D98D8B5ACB82B781FEE21D4A /* Build configuration list for PBXNativeTarget "CAUMessage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2A7E71A2E0A12AB362BCD5BC777FCB3 /* Debug */,
-				F47C82A1ED2BA0B7A518C75BEC4BF3B0 /* Release */,
+				A017F719EACB320E404D9501AED696B3 /* Debug */,
+				3ADD68204742498E9843E428CF07CC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1886,15 +1886,6 @@
 			buildConfigurations = (
 				98E1917ED578B326F83E36826EEB4878 /* Debug */,
 				1D3F230892BD0EEA59FAEF09C30C4C8A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A900CE535100054063B23034A5A23696 /* Build configuration list for PBXNativeTarget "CAUMessage-CAUMessage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F95EE90B7259EA35B88EA40318805FC /* Debug */,
-				84ABA6A12331FBB105894CB74982BAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1931,6 +1922,15 @@
 			buildConfigurations = (
 				870E7E5DD95074E3652610C54648E683 /* Debug */,
 				0F38D310F58BBCA3CA1E179F66775B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FB441FDE87E38C81ABE5CE83947683 /* Build configuration list for PBXNativeTarget "CAUMessage-CAUMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5963CFF7A698FC1A2C0F81F3F0257367 /* Debug */,
+				6BF86C9F9AC140653CAE323F118D75EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

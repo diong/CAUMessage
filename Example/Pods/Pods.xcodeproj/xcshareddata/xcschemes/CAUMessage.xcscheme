@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F9B90C374AEC9E831D43D727'
+               BlueprintIdentifier = '864758C9DEE59B6F3379DE60'
                BlueprintName = 'CAUMessage'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CAUMessage.framework'>

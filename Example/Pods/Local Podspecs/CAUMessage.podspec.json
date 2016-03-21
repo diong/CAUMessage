@@ -1,6 +1,6 @@
 {
   "name": "CAUMessage",
-  "version": "0.1.0",
+  "version": "1.2.6",
   "summary": "CAUMessage.  for test",
   "description": "友盟推送测试\nThe description is shorter than the summary",
   "homepage": "http://dev.umeng.com/social/ios/quick-integration",
@@ -9,7 +9,8 @@
     "wuzx": "wuzx@feiyu.com"
   },
   "source": {
-    "http": "http://dev.umeng.com/files/download/Umeng_SDK_Social_iOS_ARM64_4.4.zip"
+    "git": "https://github.com/diong/CAUMessage.git",
+    "tag": "1.2.6"
   },
   "platforms": {
     "ios": "7.0"
@@ -17,7 +18,7 @@
   "requires_arc": true,
   "source_files": [
     "Pod/Classes/**/*",
-    "Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/**/*"
+    "Pod/UMessage_Sdk_1.2.6/*"
   ],
   "resource_bundles": {
     "CAUMessage": [
@@ -26,6 +27,6 @@
   },
   "public_header_files": [
     "Pod/Classes/**/*.h",
-    "Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/**/*.h"
+    "Pod/UMessage_Sdk_1.2.6/*.h"
   ]
 }
