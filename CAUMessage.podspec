@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CAUMessage"
-  s.version          = "1.2.6"
+  s.version          = "1.2.6.1"
   s.summary          = "CAUMessage.  for test"
 
 # This description is used to generate tags and improve search results.
@@ -25,19 +25,26 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "wuzx" => "wuzx@feiyu.com" }
-  s.source           = { :git => "https://github.com/diong/CAUMessage.git", :tag => s.version.to_s }
+#s.source           = { :git => "https://github.com/diong/CAUMessage.git", :tag => s.version.to_s }
+  s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMessage" }
   #s.source           = { :http => "http://7oxj2v.com1.z0.glb.clouddn.com/UMessage_Sdk_1.2.6.zip" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/UMessage_Sdk_1.2.6/*'
+  s.source_files = 'Pod/UMessage_Sdk_1.2.6/*.h'
 #  s.resource_bundles = {
 #    'CAUMessage' => ['Pod/Assets/*.png']
 #  }
+  spec.preserve_paths = 'Pod/UMessage_Sdk_1.2.6/libUMessage_Sdk_1.2.6.a'
+  spec.libraries = 'UMessage_Sdk_1.2.6','z'
 
-  s.public_header_files = 'Pod/UMessage_Sdk_1.2.6/*.h'
+s.xcconfig = {
+'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/CAUMessage/Pod/UMessage_Sdk_1.2.6/"
+}
+
+  #s.public_header_files = 'Pod/UMessage_Sdk_1.2.6/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
