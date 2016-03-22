@@ -31,3 +31,237 @@ Carthage
 # `pod install` in .travis.yml
 #
 # Pods/
+Example/Pods/Manifest.lock
+Example/Pods/Expecta/LICENSE
+Example/Pods/Expecta/README.md
+Example/Pods/Expecta+Snapshots/ExpectaObject+FBSnapshotTest.h
+Example/Pods/Expecta+Snapshots/ExpectaObject+FBSnapshotTest.m
+Example/Pods/Expecta+Snapshots/EXPMatchers+FBSnapshotTest.h
+Example/Pods/Expecta+Snapshots/EXPMatchers+FBSnapshotTest.m
+Example/Pods/Expecta+Snapshots/LICENSE.md
+Example/Pods/Expecta+Snapshots/README.md
+Example/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.h
+Example/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.m
+Example/Pods/Expecta/Expecta/EXPDefines.h
+Example/Pods/Expecta/Expecta/EXPDoubleTuple.h
+Example/Pods/Expecta/Expecta/EXPDoubleTuple.m
+Example/Pods/Expecta/Expecta/Expecta.h
+Example/Pods/Expecta/Expecta/ExpectaObject.h
+Example/Pods/Expecta/Expecta/ExpectaObject.m
+Example/Pods/Expecta/Expecta/ExpectaSupport.h
+Example/Pods/Expecta/Expecta/ExpectaSupport.m
+Example/Pods/Expecta/Expecta/EXPExpect.h
+Example/Pods/Expecta/Expecta/EXPExpect.m
+Example/Pods/Expecta/Expecta/EXPFloatTuple.h
+Example/Pods/Expecta/Expecta/EXPFloatTuple.m
+Example/Pods/Expecta/Expecta/EXPMatcher.h
+Example/Pods/Expecta/Expecta/EXPUnsupportedObject.h
+Example/Pods/Expecta/Expecta/EXPUnsupportedObject.m
+Example/Pods/Expecta/Expecta/NSObject+Expecta.h
+Example/Pods/Expecta/Expecta/NSValue+Expecta.h
+Example/Pods/Expecta/Expecta/NSValue+Expecta.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+match.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+match.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+raise.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+raise.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.h
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.m
+Example/Pods/Expecta/Expecta/Matchers/EXPMatchers.h
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase.modulemap
+Example/Pods/FBSnapshotTestCase/LICENSE
+Example/Pods/FBSnapshotTestCase/README.md
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCase.h
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCase.m
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCasePlatform.h
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCasePlatform.m
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestController.h
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestController.m
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/SwiftSupport.swift
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Compare.h
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Compare.m
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Diff.h
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Diff.m
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Snapshot.h
+Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Snapshot.m
+Example/Pods/Headers/Private/CAUMessage/UMessage.h
+Example/Pods/Headers/Private/Expecta/EXPBlockDefinedMatcher.h
+Example/Pods/Headers/Private/Expecta/EXPDefines.h
+Example/Pods/Headers/Private/Expecta/EXPDoubleTuple.h
+Example/Pods/Headers/Private/Expecta/Expecta.h
+Example/Pods/Headers/Private/Expecta/ExpectaObject.h
+Example/Pods/Headers/Private/Expecta/ExpectaSupport.h
+Example/Pods/Headers/Private/Expecta/EXPExpect.h
+Example/Pods/Headers/Private/Expecta/EXPFloatTuple.h
+Example/Pods/Headers/Private/Expecta/EXPMatcher.h
+Example/Pods/Headers/Private/Expecta/EXPMatcherHelpers.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beCloseTo.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beFalsy.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beginWith.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beGreaterThan.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beGreaterThanOrEqualTo.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beIdenticalTo.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beInstanceOf.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beInTheRangeOf.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beKindOf.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beLessThan.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beLessThanOrEqualTo.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beNil.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beSubclassOf.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beSupersetOf.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+beTruthy.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+conformTo.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+contain.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+endWith.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+equal.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+haveCountOf.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+match.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+postNotification.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+raise.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+raiseWithReason.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers+respondTo.h
+Example/Pods/Headers/Private/Expecta/EXPMatchers.h
+Example/Pods/Headers/Private/Expecta/EXPUnsupportedObject.h
+Example/Pods/Headers/Private/Expecta/NSObject+Expecta.h
+Example/Pods/Headers/Private/Expecta/NSValue+Expecta.h
+Example/Pods/Headers/Private/Expecta+Snapshots/ExpectaObject+FBSnapshotTest.h
+Example/Pods/Headers/Private/Expecta+Snapshots/EXPMatchers+FBSnapshotTest.h
+Example/Pods/Headers/Private/FBSnapshotTestCase/FBSnapshotTestCase.h
+Example/Pods/Headers/Private/FBSnapshotTestCase/FBSnapshotTestCasePlatform.h
+Example/Pods/Headers/Private/FBSnapshotTestCase/FBSnapshotTestController.h
+Example/Pods/Headers/Private/FBSnapshotTestCase/UIImage+Compare.h
+Example/Pods/Headers/Private/FBSnapshotTestCase/UIImage+Diff.h
+Example/Pods/Headers/Private/FBSnapshotTestCase/UIImage+Snapshot.h
+Example/Pods/Headers/Private/Specta/Specta.h
+Example/Pods/Headers/Private/Specta/SpectaDSL.h
+Example/Pods/Headers/Private/Specta/SpectaTypes.h
+Example/Pods/Headers/Private/Specta/SpectaUtility.h
+Example/Pods/Headers/Private/Specta/SPTCallSite.h
+Example/Pods/Headers/Private/Specta/SPTCompiledExample.h
+Example/Pods/Headers/Private/Specta/SPTExample.h
+Example/Pods/Headers/Private/Specta/SPTExampleGroup.h
+Example/Pods/Headers/Private/Specta/SPTExcludeGlobalBeforeAfterEach.h
+Example/Pods/Headers/Private/Specta/SPTGlobalBeforeAfterEach.h
+Example/Pods/Headers/Private/Specta/SPTSharedExampleGroups.h
+Example/Pods/Headers/Private/Specta/SPTSpec.h
+Example/Pods/Headers/Private/Specta/SPTTestSuite.h
+Example/Pods/Headers/Private/Specta/XCTest+Private.h
+Example/Pods/Headers/Private/Specta/XCTestCase+Specta.h
+Example/Pods/Headers/Public/CAUMessage/UMessage.h
+Example/Pods/Local Podspecs/CAUMessage.podspec.json
+Example/Pods/Pods.xcodeproj/project.pbxproj
+Example/Pods/Specta/LICENSE
+Example/Pods/Specta/README.md
+Example/Pods/Specta/Specta/Specta/Specta.h
+Example/Pods/Specta/Specta/Specta/SpectaDSL.h
+Example/Pods/Specta/Specta/Specta/SpectaDSL.m
+Example/Pods/Specta/Specta/Specta/SpectaTypes.h
+Example/Pods/Specta/Specta/Specta/SpectaUtility.h
+Example/Pods/Specta/Specta/Specta/SpectaUtility.m
+Example/Pods/Specta/Specta/Specta/SPTCallSite.h
+Example/Pods/Specta/Specta/Specta/SPTCallSite.m
+Example/Pods/Specta/Specta/Specta/SPTCompiledExample.h
+Example/Pods/Specta/Specta/Specta/SPTCompiledExample.m
+Example/Pods/Specta/Specta/Specta/SPTExample.h
+Example/Pods/Specta/Specta/Specta/SPTExample.m
+Example/Pods/Specta/Specta/Specta/SPTExampleGroup.h
+Example/Pods/Specta/Specta/Specta/SPTExampleGroup.m
+Example/Pods/Specta/Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h
+Example/Pods/Specta/Specta/Specta/SPTGlobalBeforeAfterEach.h
+Example/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.h
+Example/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.m
+Example/Pods/Specta/Specta/Specta/SPTSpec.h
+Example/Pods/Specta/Specta/Specta/SPTSpec.m
+Example/Pods/Specta/Specta/Specta/SPTTestSuite.h
+Example/Pods/Specta/Specta/Specta/SPTTestSuite.m
+Example/Pods/Specta/Specta/Specta/XCTest+Private.h
+Example/Pods/Specta/Specta/Specta/XCTestCase+Specta.h
+Example/Pods/Specta/Specta/Specta/XCTestCase+Specta.m
+Example/Pods/Target Support Files/Expecta/Expecta-dummy.m
+Example/Pods/Target Support Files/Expecta/Expecta-prefix.pch
+Example/Pods/Target Support Files/Expecta/Expecta-umbrella.h
+Example/Pods/Target Support Files/Expecta/Expecta.modulemap
+Example/Pods/Target Support Files/Expecta/Expecta.xcconfig
+Example/Pods/Target Support Files/Expecta/Info.plist
+Example/Pods/Target Support Files/Expecta+Snapshots/Expecta+Snapshots-dummy.m
+Example/Pods/Target Support Files/Expecta+Snapshots/Expecta+Snapshots-prefix.pch
+Example/Pods/Target Support Files/Expecta+Snapshots/Expecta+Snapshots-umbrella.h
+Example/Pods/Target Support Files/Expecta+Snapshots/Expecta+Snapshots.modulemap
+Example/Pods/Target Support Files/Expecta+Snapshots/Expecta+Snapshots.xcconfig
+Example/Pods/Target Support Files/Expecta+Snapshots/Info.plist
+Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-dummy.m
+Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch
+Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap
+Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.xcconfig
+Example/Pods/Target Support Files/FBSnapshotTestCase/Info.plist
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Info.plist
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example-dummy.m
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example-frameworks.sh
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example-resources.sh
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example-umbrella.h
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example.debug.xcconfig
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example.modulemap
+Example/Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example.release.xcconfig
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Info.plist
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests-acknowledgements.markdown
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests-acknowledgements.plist
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests-dummy.m
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests-frameworks.sh
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests-resources.sh
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests-umbrella.h
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests.debug.xcconfig
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests.modulemap
+Example/Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests.release.xcconfig
+Example/Pods/Target Support Files/Specta/Info.plist
+Example/Pods/Target Support Files/Specta/Specta-dummy.m
+Example/Pods/Target Support Files/Specta/Specta-prefix.pch
+Example/Pods/Target Support Files/Specta/Specta-umbrella.h
+Example/Pods/Target Support Files/Specta/Specta.modulemap
+Example/Pods/Target Support Files/Specta/Specta.xcconfig

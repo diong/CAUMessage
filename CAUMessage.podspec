@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "CAUMessage"
   s.version          = "1.2.6.1"
-  s.summary          = "CAUMessage.  for test"
+  s.summary          = "CAUMessage. 友盟推送1.2.6版本"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                        友盟推送测试
-    The description is shorter than the summary
+                        友盟推送
                        DESC
 
   s.homepage         = "http://dev.umeng.com/social/ios/quick-integration"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "wuzx" => "wuzx@feiyu.com" }
+  s.author           = { "wuzhx" => "wdgxzhongxiang@163.com" }
   s.source           = { :git => "https://github.com/diong/CAUMessage.git", :tag => s.version.to_s }
 #s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMessage" }
   #s.source           = { :http => "http://7oxj2v.com1.z0.glb.clouddn.com/UMessage_Sdk_1.2.6.zip" }
