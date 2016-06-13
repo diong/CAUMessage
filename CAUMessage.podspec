@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CAUMessage"
-  s.version          = "1.2.6.1"
+  s.version          = "1.2.6.2"
   s.summary          = "CAUMessage. 友盟推送1.2.6版本"
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                        友盟推送
+友盟推送
+The description is shorter than the summary
                        DESC
 
   s.homepage         = "http://dev.umeng.com/social/ios/quick-integration"
@@ -27,23 +28,17 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/diong/CAUMessage.git", :tag => s.version.to_s }
 #s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMessage" }
   #s.source           = { :http => "http://7oxj2v.com1.z0.glb.clouddn.com/UMessage_Sdk_1.2.6.zip" }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/UMessage_Sdk_1.2.6/*.h'
-#  s.resource_bundles = {
-#    'CAUMessage' => ['Pod/Assets/*.png']
-#  }
-  s.preserve_paths = 'Pod/UMessage_Sdk_1.2.6/libUMessage_Sdk_1.2.6.a'
+  s.source_files = 'UMessage_Sdk_1.2.6/*.h'
+  s.preserve_paths = 'UMessage_Sdk_1.2.6/libUMessage_Sdk_1.2.6.a'
   s.libraries = 'UMessage_Sdk_1.2.6','z'
 
 s.xcconfig = {
-'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/CAUMessage/Pod/UMessage_Sdk_1.2.6/"
+'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/CAUMessage/UMessage_Sdk_1.2.6/"
 }
 
   #s.public_header_files = 'Pod/UMessage_Sdk_1.2.6/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
