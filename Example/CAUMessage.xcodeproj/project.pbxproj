@@ -57,12 +57,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6351B530B35D60973AE2EA7C /* Pods-CAUMessage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAUMessage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		796FA0AEDB4720713198F4B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		81B3F120D9B2BD214349ADDF /* Pods-CAUMessage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAUMessage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAUMessage_Tests/Pods-CAUMessage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9991EAE426E77FCD2E8C0956 /* Pods_CAUMessage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAUMessage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7065B44C9249C9EA66F25DC /* Pods_CAUMessage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAUMessage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B536AB981A6F9A5126F702F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C3D78C0276F34D02E88BDBF9 /* Pods-CAUMessage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAUMessage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB9A230E73CCD4DCD748F5BF /* Pods-CAUMessage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAUMessage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAUMessage_Example/Pods-CAUMessage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,8 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				57B61610A20E0B06F4682124 /* CAUMessage.podspec */,
-				B536AB981A6F9A5126F702F3 /* README.md */,
-				796FA0AEDB4720713198F4B4 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";

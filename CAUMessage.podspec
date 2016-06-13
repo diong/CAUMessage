@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "CAUMessage"
-  s.version          = "1.2.6.2"
-  s.summary          = "CAUMessage. 友盟推送1.2.6版本"
+  s.version          = "1.3.0"
+  s.summary          = "CAUMessage. 友盟推送1.3.0版本,包含IDFA"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,13 +32,13 @@ The description is shorter than the summary
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'UMessage_Sdk_1.2.6/*.h'
-  s.preserve_paths = 'UMessage_Sdk_1.2.6/libUMessage_Sdk_1.2.6.a'
-  s.libraries = 'UMessage_Sdk_1.2.6','z'
+  s.source_files = 'UMessage_Sdk_1.3.0/*.h'
+  s.preserve_paths = 'UMessage_Sdk_1.3.0/libUMessage_Sdk_1.3.0.a'
+  s.libraries = 'UMessage_Sdk_1.3.0','z'
 
 s.xcconfig = {
-'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/CAUMessage/UMessage_Sdk_1.2.6/"
+'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/CAUMessage/UMessage_Sdk_1.3.0/"
 }
 
-  #s.public_header_files = 'Pod/UMessage_Sdk_1.2.6/*.h'
+  #s.public_header_files = 'Pod/UMessage_Sdk_1.3.0/*.h'
 end
