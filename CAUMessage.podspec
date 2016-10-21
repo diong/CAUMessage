@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "CAUMessage"
-  s.version          = "1.3.0"
-  s.summary          = "CAUMessage. 友盟推送1.3.0版本,包含IDFA"
+  s.version          = "1.4.0"
+  s.summary          = "CAUMessage. 友盟推送1.4.0版本,包含IDFA"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,24 +21,23 @@ Pod::Spec.new do |s|
 The description is shorter than the summary
                        DESC
 
-  s.homepage         = "http://dev.umeng.com/social/ios/quick-integration"
+  s.homepage         = "http://dev.umeng.com/push/ios/sdk-download"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "wuzhx" => "wdgxzhongxiang@163.com" }
   s.source           = { :git => "https://github.com/diong/CAUMessage.git", :tag => s.version.to_s }
 #s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMessage" }
-  #s.source           = { :http => "http://7oxj2v.com1.z0.glb.clouddn.com/UMessage_Sdk_1.2.6.zip" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'UMessage_Sdk_1.3.0/*.h'
-  s.preserve_paths = 'UMessage_Sdk_1.3.0/libUMessage_Sdk_1.3.0.a'
-  s.libraries = 'UMessage_Sdk_1.3.0','z'
+  s.source_files = 'UMessage_Sdk_1.4.0/*.h'
+  s.preserve_paths = 'UMessage_Sdk_1.4.0/libUMessage_Sdk_1.4.0.a'
+  s.libraries = 'UMessage_Sdk_1.4.0','z'
 
 s.xcconfig = {
-'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/CAUMessage/UMessage_Sdk_1.3.0/"
+'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/CAUMessage/UMessage_Sdk_1.4.0/"
 }
 
-  #s.public_header_files = 'Pod/UMessage_Sdk_1.3.0/*.h'
+  #s.public_header_files = 'Pod/UMessage_Sdk_1.4.0/*.h'
 end
